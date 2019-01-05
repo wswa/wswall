@@ -7,13 +7,14 @@ wswall secures your webserver, webservice or any web http protocol related servi
 
 Attackers will be blocked or banned from your service. So it is nearly impossible to Attack your service.
 
-wswall is very easy to install and works und almost any operating system.
+wswall is very easy to install and works under almost any operating system.
 
 
 Features:
 
 + Reverse Proxy
 + Blacklisting Signatures - OWASP TopTen
++ IP-Scoring
 + SSL-Offloading
 + Access Controll Lists (IP-Blacklisting)
 + Directory-Access Controll
