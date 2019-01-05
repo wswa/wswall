@@ -19,8 +19,6 @@ wswall is very easy to install and works under almost any operating system.
 + HTTP Method Filtering
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2nRvrVBDx40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ---
 
 
@@ -53,8 +51,7 @@ Coming soon...
 Reach out to me at one of the following places!
 
 - Website at <a href="https://wswall.com" target="_blank">wswall.com</a>
-- Twitter at <a href="https://twitter.com/marcelbilal" target="_blank">`@marcelbilal</a>
-- Insert more social links here.
+- Twitter at <a href="https://twitter.com/marcelbilal" target="_blank">@marcelbilal</a>
 
 ---
 
