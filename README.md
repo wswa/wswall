@@ -57,7 +57,7 @@ Reach out to me at one of the following places!
 
 ## Donations 
 
-Coming soon...
+BTC: 137KpjUZ64HC8VgEiG7g3YJykFWoGsAW3a
 
 ---
 
