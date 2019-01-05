@@ -1,3 +1,4 @@
+<img src="http://wswall.com/img/wswall_logo_sm_invert.svg" height="50%"> 
 # wsWall - WAF
 web application firewall, waf, firewall, ssl-offloading, reverse proxy
 
