@@ -62,7 +62,7 @@ BTC: 137KpjUZ64HC8VgEiG7g3YJykFWoGsAW3a
 
 ## License
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+[![License](http://img.shields.io/:license-gpl-blue.svg?style=flat-square)](http://badges.gpl-license.org)
 
 - **[GPL license](http://opensource.org/licenses/gpl-license.php)**
 - Copyright 2019 © <a href="https://wswall.com" target="_blank">wswall.com</a>.
