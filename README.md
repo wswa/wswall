@@ -26,7 +26,6 @@ wswall is very easy to install and works under almost any operating system.
 
 curl https://install.wswall.com | sudo bash 
 
-or clone this repo and do the installation manually
 
 ---
 
