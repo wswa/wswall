@@ -1,0 +1,37 @@
+wswall
+
+
+
+INTRO
+
+
+INSTALLATION
+/opt/wswall/
+
+
+
+CONFIGURATION
+/opt/wswall/config.ini
+
+Certificate must be in pem format.
+
+
+
+LOGGING
+/var/log/wswall.log
+
+./start_logging
+startet wswall syslog_server und sendet Inhalt der Logdatei an diesen.
+
+syslog_server nimmt logdaten entgegen und sendet diese an mysql db.
+
+wswall_gui zeigt logdaten an. 
+
+
+
+
+Thanks for using wsWall I hope you enjoy it!
+
+
+Contact:
+contact@wswall.com

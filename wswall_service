@@ -1,0 +1,67 @@
+#!/bin/sh
+
+#USAGE: ./wswall_service <start | stop | status>
+
+#sockstat -4 -6
+#screen -ls
+#screen -X -S wswall_config.ini quit
+#screen -r wswall_config.ini
+#strg+r
+
+
+# array: host1.ini host2.ini
+#array="host1.ini host2.ini"
+array="config.ini"
+
+
+
+if [ "$1" = "start" ]; then
+	for x in $array; do
+        	#check if running
+        	result=$(screen -ls | grep "${x}")
+
+        	if [ $? -eq 1 ]; then
+                	echo "starting wswall ${x} ..."
+			screen -d -m -S wswall_${x} bash -c 'cd /opt/wswall/ ; python wswall.pyc '"${x}"''
+        	else
+                	echo "wswall ${x} is already running"
+        	fi
+	done
+	exit
+fi
+
+
+if [ "$1" = "stop" ]; then
+        for x in $array; do
+                #check if running
+                result=$(screen -ls | grep "${x}")
+
+                if [ $? -eq 0 ]; then
+                        echo "stopping wswall ${x} ..."
+                        screen -X -S wswall_$x quit
+                else
+                        echo "wswall ${x} is not running"
+			exit
+                fi
+        done
+	pkill -f wswall
+        exit
+fi
+
+
+if [ "$1" = "status" ]; then
+        for x in $array; do
+                #check if running
+                result=$(screen -ls | grep "${x}")
+
+                if [ $? -eq 0 ]; then
+                	echo "wswall ${x} is running"
+                else
+                        echo "wswall ${x} is not running"
+                fi
+        done
+        exit
+fi
+
+
+echo "USAGE: ./wswall_service <start | stop | status>"
